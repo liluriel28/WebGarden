@@ -805,7 +805,8 @@ header img {
 
 @media (max-width: 480px) {
     .image-section img{
-        height: 22vh;
+        height: 20vh;
+        width: 40dw;
     }
 }
 
