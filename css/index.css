@@ -808,7 +808,7 @@ header img {
         height: 20vh;
         width: 120px;
     }
-    .delete{
+    #delete{
         display: none;
     }
 }
