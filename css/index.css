@@ -950,7 +950,7 @@ header img {
 
 @media (max-width: 768px) {
     .garden-section {
-        padding: 10px;
+        padding: 0px 20px;
     }
 
     .garden-container {
