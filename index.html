@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="assets/bg.webp" />
+    <meta property="og:title" content="Olea landscaping" />
+    <meta property="og:description"
+        content="Olea Landscaping Services offers full-service landscaping in Lake and Mendocino Counties, focused on client satisfaction and exceeding expectations." />
+    <title>Olea landscaping</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <main>
+
+        <header>
+            <a href="#" class="logo">
+                <img src="assets/img/icono1.ico" alt="logo">
+            </a>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tel:7073912197" class="call-button" style="color: white;">
+                        Call us 707-391-2197 For a Free Quote
+                    </a>
+                </li>
+
+            </ul>
+        </header>
+
+        <section class="inicio" id="home">
+            <div class="container-inicio">
+                <div class="text-section">
+                    <h1>Olea landscaping</h1>
+                    <p>Olea landscaping services, we're all about nurturing lawns and crafting eco-friendly landscapes
+                        that thrive. Our team specializes in creating stunning, sustainable outdoor spaces tailored to
+                        your vision.Olea landscaping services is afull-service landscape contractor serving Lake and
+                        Mendocino County's. We are committed to providing our clients with exceptional service and
+                        ensuring their complete satisfaction.</p>
+                    <p>We work closely with our clients to understand their needs and preferences, and we strive to
+                        exceed their expectations on every project.</p>
+                    <button>Lic# 1131001</button>
+                </div>
+                <div class="image-section">
+                    <img id="slideshow" src="assets/img/BgHome.webp" alt="Landscape 1">
+                </div>
+            </div>
+
+            <script>
+                const images = [
+                    "assets/gallery/999_10_11zon.webp",
+                    "assets/gallery/666_13_11zon.webp",
+                    "assets/gallery/7_2_11zon.webp",
+                    "assets/gallery/7_2_11zon.webp",
+                    "assets/gallery/555_14_11zon.webp",
+                    "assets/gallery/111_18_11zon.webp",
+                    "assets/gallery/888_11_11zon.webp",
+                    "assets/gallery/33_26_11zon.webp",
+                    "assets/gallery/444_15_11zon.webp"
+
+                ];
+
+                let currentIndex = 0;
+                const slideshow = document.getElementById("slideshow");
+
+                setInterval(() => {
+                    currentIndex = (currentIndex + 1) % images.length;
+                    slideshow.src = images[currentIndex];
+                }, 3000);
+            </script>
+        </section>
+
+
+        <section class="garden-section">
+            <div class="garden-container">
+                <div class="garden-image">
+                    <img id="carrusel" src="assets/gallery/111_18_11zon.webp" alt="Garden Interior">
+                </div>
+                <div class="garden-text">
+                    <div class="garden-item">
+                        <div class="icon-box">
+                            <i class='bx bxs-heart' style='color:rgb(219, 225, 217); font-size: 32px; '></i>
+                        </div>
+                        <div class="text-box">
+                            <h3>Passion in every work</h3>
+                            <p>Our passion for what we do shines through in every garden and landscape we transform, exceeding our clients' expectations.</p>
+                        </div>
+                    </div>
+                    <div class="garden-item">
+                        <div class="icon-box">
+                            <i class='bx bxs-customize' style='color:#ffffff; font-size: 32px;'></i>
+                        </div>
+                        <div class="text-box">
+                            <h3>Collaboration on top</h3>
+                            <p>At Olea Landscaping, we put collaboration first, making sure every decision aligns with our clients' needs and desires.</p>
+                        </div>
+                    </div>
+                    <div class="garden-item">
+                        <div class="icon-box">
+                            <i class='bx bxs-check-circle' style='color:#ffffff; font-size: 32px;'></i>
+                        </div>
+                        <div class="text-box">
+                            <h3>Sustainability in check</h3>
+                            <p>Sustainability is at the heart of our work; we are committed to creating landscapes that respect the environment without compromising beauty.</p>
+                        </div>
+                    </div>
+                    <div class="garden-item">
+                        <div class="icon-box">
+                            <i class='bx bxs-star' style='color:#ffffff; font-size: 32px;'></i>
+                        </div>
+                        <div class="text-box">
+                            <h3>Creativity unleashed</h3>
+                            <p>Our creativity knows no bounds; every space is an opportunity to explore new ideas and innovative approaches.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                const image = [
+                    "assets/gallery/despues1.2.webp",
+                    "assets/gallery/antes1.1.webp",
+                    "assets/gallery/antes2.1.webp",
+                    "assets/gallery/despues2.2.webp",
+                    "assets/gallery/antes3.1.webp",
+                    "assets/gallery/despues3.2.webp",
+                    "assets/gallery/antes4.1.webp",
+                    "assets/gallery/despues4.2.webp",
+                    "assets/gallery/antes5.1.webp",
+                    "assets/gallery/despues5.2.webp",
+
+
+                    
+                ]
+                let currentGardenIndex = 0;
+                const gardenSlideshow = document.getElementById("carrusel");
+            
+                setInterval(() => {
+                    currentGardenIndex = (currentGardenIndex + 1) % image.length;
+                    gardenSlideshow.src = image[currentGardenIndex];
+                }, 4000);
+            </script>
+            
+        </section>
+
+
+
+        <section class="home">
+            <div class="homeletters">
+                <div class="hometitle">
+                    <h1>Our Expertise </h1>
+                </div>
+                <div class="homesubtitle">
+                    <h2>
+                        Whether your home or business, Our team does it all, and is ready to provide
+                        complete attention to your every need. With our knowledge and experience our comprehensive range
+                        of services guarantees that your landscape is not only aesthetically pleasing but also
+                        sustainable and functional, no matter how big or small the project is.</h2>
+                </div>
+            </div>
+        </section>
+
+        <div class="containertitle" id="services">
+            <h1>Our services</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="slide">
+                <div class="item" style="background-image: url(assets/img/treedemo.webp);">
+                    <div class="content">
+                        <div class="name">Tree removal & Tree Trimming</div>
+                        <div class="des">Tree removal improves safety, prevents damage, and reduces wildfire risks.
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(assets/img/CleanUp.webp);">
+                    <div class="content">
+                        <div class="name">Restoration <br>Clean-Up</div>
+                        <div class="des">Brush clearing creates defensible space, protecting homes from wildfires.</div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(assets/img/LawnCare.webp);">
+                    <div class="content">
+                        <div class="name">Lawn Care</div>
+                        <div class="des">Healthy lawns enhance beauty, value, and require knowledge and care.</div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(assets/img/irrigationnew.jpg);">
+                    <div class="content">
+                        <div class="name">Irrigation system maintenance</div>
+                        <div class="des">Irrigation systems are investments in lawns, homes, and personal well-being.
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(assets/img/HarScape.webp);">
+                    <div class="content">
+                        <div class="name">Hardscape Installation</div>
+                        <div class="des">Hardscaping transforms gardens, enhancing usability, enjoyment, and structural
+                            practicality.</div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(assets/img/Fencing.webp);">
+                    <div class="content">
+                        <div class="name">Fencing</div>
+                        <div class="des">Fencing provides boundaries, privacy, and security with diverse materials and
+                            styles.</div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(assets/img/SeasonClean.webp);">
+                    <div class="content">
+                        <div class="name">Seasonal Clean-Up Services</div>
+                        <div class="des">Seasonal clean-up simplifies transitions for spring growth or cooler months.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(assets/img/Gutter.webp);">
+                    <div class="content">
+                        <div class="name">Gutter Cleaning</div>
+                        <div class="des">We provide essential maintenance for the
+                            health of your home.</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="button">
+                <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+        <div class="containertitle" id="gallery">
+            <h1>Gallery</h1>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery">
+                <img src="assets/gallery/000_9_11zon.webp" alt="Image 1" loading="lazy">
+                <img src="assets/gallery/00_19_11zon.webp" alt="Image 2" loading="lazy">
+                <img src="assets/gallery/0_29_11zon.webp" alt="Image 3" loading="lazy">
+                <img src="assets/gallery/1_8_11zon.webp" alt="Image 4" loading="lazy">
+                <img src="assets/gallery/2_7_11zon.webp" alt="Image 5" loading="lazy">
+                <img src="assets/gallery/3_6_11zon.webp" alt="Image 6" loading="lazy">
+                <img src="assets/gallery/4_5_11zon.webp" alt="Image 7" loading="lazy">
+                <img src="assets/gallery/5_4_11zon.webp" alt="Image 8" loading="lazy">
+                <img src="assets/gallery/6_3_11zon.webp" alt="Image 9" loading="lazy">
+                <img src="assets/gallery/7_2_11zon.webp" alt="Image 10" loading="lazy">
+                <img src="assets/gallery/8_1_11zon.webp" alt="Image 11" loading="lazy">
+                <img src="assets/gallery/9_30_11zon.webp" alt="Image 12" loading="lazy">
+                <img src="assets/gallery/11_28_11zon.webp" alt="Image 13" loading="lazy">
+                <img src="assets/gallery/22_27_11zon.webp" alt="Image 14" loading="lazy">
+                <img src="assets/gallery/33_26_11zon.webp" alt="Image 15" loading="lazy">
+                <img src="assets/gallery/44_25_11zon.webp" alt="Image 16" loading="lazy">
+                <img src="assets/gallery/55_24_11zon.webp" alt="Image 17" loading="lazy">
+                <img src="assets/gallery/66_23_11zon.webp" alt="Image 18" loading="lazy">
+                <img src="assets/gallery/77_22_11zon.webp" alt="Image 19" loading="lazy">
+                <img src="assets/gallery/88_21_11zon.webp" alt="Image 20" loading="lazy">
+                <img src="assets/gallery/99_20_11zon.webp" alt="Image 21" loading="lazy">
+                <img src="assets/gallery/111_18_11zon.webp" alt="Image 22" loading="lazy">
+                <img src="assets/gallery/222_17_11zon.webp" alt="Image 23" loading="lazy">
+                <img src="assets/gallery/333_16_11zon.webp" alt="Image 24" loading="lazy">
+                <img src="assets/gallery/444_15_11zon.webp" alt="Image 25" loading="lazy">
+                <img src="assets/gallery/555_14_11zon.webp" alt="Image 26" loading="lazy">
+                <img src="assets/gallery/666_13_11zon.webp" alt="Image 27" loading="lazy">
+                <img src="assets/gallery/777_12_11zon.webp" alt="Image 28" loading="lazy">
+                <img src="assets/gallery/888_11_11zon.webp" alt="Image 29" loading="lazy">
+                <img src="assets/gallery/999_10_11zon.webp" alt="Image 30" loading="lazy">
+                <img src="assets/gallery/777_12_33zon.webp" alt="Image 31" loading="lazy">
+            </div>
+        </div>
+        <section class="contact-section" id="contact">
+            <div class="contact-bg">
+                <h3>Get in Touch with Us</h3>
+                <h2>contact us</h2>
+                <div class="line">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p class="text">READY TO TRANSFORM
+                    YOUR GARDEN?.</p>
+            </div>
+
+
+            <div class="contact-body">
+                <div class="contact-info">
+                    <div>
+                        <span><i class="fas fa-mobile-alt"></i></span>
+                        <span>Phone No.</span>
+                        <span class="text">
+                            <a href="tel:7073912197">707-391-2197</a>
+                        </span>
+                    </div>
+                  
+                    <div>
+                        <span><i class="fas fa-map-marker-alt"></i></span>
+                        <span>Address</span>
+                        <span class="text">267 alterra dr kelseyville ca 95451</span>
+                    </div>
+                    <div>
+                        <span><i class="fas fa-clock"></i></span>
+                        <span>Opening Hours</span>
+                        <span class="text">Monday - Friday (7:30 AM to 5:00 PM)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-footer">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=100094067231941&mibextid=ZbWKwL"
+                        class="fab fa-facebook-f"></a>
+
+                    
+
+                    
+                    <a href="https://wa.me/7073912197" class="fab fa-whatsapp whatsapp-link" target="_blank"></a>
+                </div>
+            </div>
+
+
+        </section>
+        <script type="text/javascript" src="js/index.js"></script>
+
+    </main>
+</body>
+
+</html>
