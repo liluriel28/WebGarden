@@ -808,6 +808,9 @@ header img {
         height: 20vh;
         width: 120px;
     }
+    .delete{
+        display: none;
+    }
 }
 
 .button-container {
