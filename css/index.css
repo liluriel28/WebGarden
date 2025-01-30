@@ -703,7 +703,7 @@ header img {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    height: 100dvh;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.414)), url('../assets/bg1.webp');
     background-position: center;
     background-repeat: no-repeat;
