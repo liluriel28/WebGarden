@@ -717,7 +717,7 @@ header img {
     max-width: 95%;
     width: 100%;
     align-items: center;
-    gap: 20px;
+    gap: 5px;
 }
 
 .text-section {
@@ -765,7 +765,7 @@ header img {
 
 .image-section img {
     width: 100%;
-    height: auto;
+    height: 40vh;
     max-height: 400px;
     object-fit: cover;
     border-radius: 10px;
